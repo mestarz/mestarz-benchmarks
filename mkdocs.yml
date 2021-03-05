@@ -32,6 +32,42 @@ nav:
 - 介绍:
   - index.md
   - introduce.md
+- 神经网络模型:
+  - Model/LeNet.md
+  - Model/AlexNet.md
+  - Model/ZFNet.md
+  - Model/Vgg16.md
+  - Model/GoogleNet.md
+  - Model/InceptionV2.md
+  - Model/InceptionV3.md
+  - Model/InceptionV4.md
+  - Model/ResNet50.md
+  - Model/ResNet101.md
+  - Model/ResNet152.md
+  - Model/DeseNet121.md
+  - Model/MobileNetv2.md
+  - Model/ShuffleNetv2.md
+  - Model/SqueezeNetv1.1.md
+  - Model/R-CNN.md
+  - Model/YOLOV3.md
+  - Model/FCN.md
+  - Model/U-Net.md
+- 跟踪算子:
+  - Tracker/BOOSTING_Tracker.md
+  - Tracker/MIL_Tracker.md
+  - Tracker/KCF_Tracker.md
+  - Tracker/CSRT_Tracker.md
+  - Tracker/MedianFlow_Tracker.md
+  - Tracker/TLD_Tracker.md
+  - Tracker/MOSSE_Tracker.md
+  - Tracker/GOTURN_Tracker.md
+- 强化学习方法:
+  - Reinforcement/Q-Learning.md
+  - Reinforcement/SARSA.md
+  - Reinforcement/DQN.md
+  - Reinforcement/PG.md
+  - Reinforcement/DDPG.md
+  - Reinforcement/PPO.md
   
 markdown_extensions:
 - admonition
