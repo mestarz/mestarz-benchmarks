@@ -31,4 +31,4 @@ model.fit(train_dataset,
         verbose=1
     )
     
-model.save('LetNet_MNIST/model')
+model.save('LetNet_MNIST_checkpoint/LetNet')

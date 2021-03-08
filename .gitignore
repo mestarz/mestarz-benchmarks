@@ -7,6 +7,7 @@
 Debug/
 Release/
 obj/
+__pycache__/
 #过滤生成的模型
 *_checkpoint/
 *.pdopt
