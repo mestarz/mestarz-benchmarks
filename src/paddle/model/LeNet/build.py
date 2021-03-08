@@ -30,3 +30,5 @@ model.fit(train_dataset,
         batch_size=64,
         verbose=1
     )
+    
+model.save('LetNet_MNIST/model')
