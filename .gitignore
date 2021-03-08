@@ -3,11 +3,13 @@
 *.ldb
 *.sln
 *.config
+
 #过滤文件夹Debug,Release,obj
 Debug/
 Release/
 obj/
 __pycache__/
+.ipynb_checkpoints/
 #过滤生成的模型
 *_checkpoint/
 *.pdopt
