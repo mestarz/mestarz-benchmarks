@@ -12,7 +12,7 @@ sys.path.append("..")
 import path
 
 NAME = 'mnist'
-URL_PREFIX = path.URL + 'datasets/data/'
+URL_PREFIX = path.URL + 'datasets/data_package/'
 TEST_IMAGE_URL = URL_PREFIX + 't10k-images-idx3-ubyte.gz'
 TEST_LABEL_URL = URL_PREFIX + 't10k-labels-idx1-ubyte.gz'
 TRAIN_IMAGE_URL = URL_PREFIX + 'train-images-idx3-ubyte.gz'

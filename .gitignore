@@ -14,3 +14,6 @@ __pycache__/
 *_checkpoint/
 *.pdopt
 *.pdparams
+
+#数据库
+data_package/
