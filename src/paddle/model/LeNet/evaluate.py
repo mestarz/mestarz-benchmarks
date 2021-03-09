@@ -2,15 +2,16 @@ import sys
 sys.path.append("../..")
 from datasets import mnist
 
-import paddle
-
 #导入mnist数据集
 from paddle.vision.transforms import Compose, Normalize
 transform = Compose([Normalize(mean=[127.5],
                                std=[127.5],
                                data_format='CHW')])
 # 使用transform对数据集做归一化
-train_dataset = mnist.MNIST(mode='train', transform=transform)
+test_dataset = mnist.MNIST(mode='test', transform=transform)
+
+import paddle
+
 
 import model as mod
 from paddle.metric import Accuracy
@@ -23,11 +24,7 @@ model.prepare(
     paddle.nn.CrossEntropyLoss(),
     Accuracy()
     )
-# 训练模型
-model.fit(train_dataset,
-        epochs=2,
-        batch_size=64,
-        verbose=1
-    )
-    
-model.save('LetNet_MNIST_checkpoint/LetNet')
+
+model.load('LetNet_MNIST_checkpoint/LetNet')
+
+model.evaluate(test_dataset, batch_size=64, verbose=1)
