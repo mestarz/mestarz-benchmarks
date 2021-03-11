@@ -1,0 +1,3 @@
+paddle		#conda install paddle
+gym		#pip install gym
+atari		#pip install gym[atari]
