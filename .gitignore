@@ -10,6 +10,7 @@ Release/
 obj/
 __pycache__/
 .ipynb_checkpoints/
+*.ckpy/
 #过滤生成的模型
 *_checkpoint/
 *.pdopt
