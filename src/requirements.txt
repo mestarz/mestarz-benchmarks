@@ -1,4 +1,4 @@
-paddle		#conda install paddle
+paddle		#pip install paddlepaddle==1.8.5 -i https://mirror.baidu.com/pypi/simple
 gym		#pip install gym
 atari		#pip install gym[atari]
 parl    #pip install parl

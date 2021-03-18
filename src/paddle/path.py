@@ -1,1 +1,1 @@
-URL = '/home/xinxia/workspace/github/mestarz-benchmarks/src/paddle/'
+URL = '/home/mestarz/workspace/github/mestarz-benchmarks/src/paddle'
